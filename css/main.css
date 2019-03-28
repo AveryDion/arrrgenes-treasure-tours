@@ -27,6 +27,12 @@ html {
   text-decoration: none;
 }
 
+.nav a:focus {
+  outline: #fff;
+  background-color: #fff;
+  color: #522806;
+}
+
 .nav a span {
   border-bottom: .3rem solid #bea59b;
 }
@@ -39,6 +45,10 @@ html {
 .banner {
   min-height: 16em;
   color: #fff;
+}
+
+.banner:focus {
+  color: #000;
 }
 
 .card {
