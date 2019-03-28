@@ -45,10 +45,7 @@ html {
 .banner {
   min-height: 16em;
   color: #fff;
-}
-
-.banner:focus {
-  color: #000;
+  background-color: #000;
 }
 
 .card {
@@ -79,6 +76,7 @@ html {
   background-color: #bea59b;
   border-color: #fff;
   color: #522806;
+  outline-color: #fff;
 }
 
 .footer {
